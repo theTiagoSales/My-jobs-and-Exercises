@@ -1,0 +1,8 @@
+# Atividade 1: IMC (Tiago -- -- Sales)
+
+nome = input('Escreva seu nome: ')
+altura = float(input("Qual a sua altura? "))
+peso = float(input("Quanto você pesa? "))
+IMC = (peso / altura**2)
+mensagem = f'{nome}, seu IMC é {IMC:.2f}'
+print(mensagem)
